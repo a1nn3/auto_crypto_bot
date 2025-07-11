@@ -1,0 +1,6 @@
+2025-07-10 21:29:17,990 - INFO - HTTP Request: POST https://api.telegram.org/bot7482828922:AAGLTsA9WzDlMD4guuB805q-fKNabA9KpIc/sendMessage "HTTP/1.1 200 OK"
+2025-07-10 21:29:18,007 - INFO - Telegram message sent: ⚠️ *Bot Error:* HTTPSConnectionPool\(host\='api\.binance\.com', port\=443\): Read timed out\. \(read timeout\=10\)
+2025-07-10 22:04:43,596 - ERROR - Telegram error on attempt 1: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2025-07-10 22:04:45,632 - ERROR - Telegram error on attempt 2: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-07-10 22:04:48,642 - ERROR - Telegram error on attempt 3: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-07-10 22:04:52,656 - ERROR - Failed to send Telegram message after 3 attempts: ⚠️ *Bot Error:* HTTPSConnectionPool\(host\='api\.binance\.com', port\=443\): Read timed out\. \(read timeout\=10\)
